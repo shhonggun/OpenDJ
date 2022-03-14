@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="opendj-embedded-server-examples" />
+        <module name="opendj-rest2ldap-servlet" />
+        <module name="opendj-server" />
+        <module name="opendj-rest2ldap" />
+        <module name="opendj-server-example-plugin" />
+        <module name="opendj-legacy" />
+        <module name="opendj-maven-plugin" />
+        <module name="opendj-doc-maven-plugin" />
+        <module name="opendj-grizzly" />
+        <module name="opendj-ldap-toolkit" />
+        <module name="opendj-ldap-sdk-examples" />
+        <module name="opendj-server-legacy" />
+        <module name="opendj-dsml-servlet" />
+        <module name="opendj-core" />
+        <module name="opendj-openidm-account-change-notification-handler" />
+        <module name="opendj-cli" />
+        <module name="opendj-config" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="opendj-cli" target="1.8" />
+      <module name="opendj-config" target="1.8" />
+      <module name="opendj-core" target="1.8" />
+      <module name="opendj-doc-maven-plugin" target="1.8" />
+      <module name="opendj-dsml-servlet" target="1.8" />
+      <module name="opendj-embedded-server-examples" target="1.8" />
+      <module name="opendj-grizzly" target="1.8" />
+      <module name="opendj-ldap-sdk-examples" target="1.8" />
+      <module name="opendj-ldap-toolkit" target="1.8" />
+      <module name="opendj-legacy" target="1.8" />
+      <module name="opendj-maven-plugin" target="1.8" />
+      <module name="opendj-openidm-account-change-notification-handler" target="1.8" />
+      <module name="opendj-packages" target="1.8" />
+      <module name="opendj-parent" target="1.8" />
+      <module name="opendj-rest2ldap" target="1.8" />
+      <module name="opendj-rest2ldap-servlet" target="1.8" />
+      <module name="opendj-server" target="1.8" />
+      <module name="opendj-server-example-plugin" target="1.8" />
+      <module name="opendj-server-legacy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="opendj-cli" options="-XDignore.symbol.file" />
+      <module name="opendj-config" options="-XDignore.symbol.file" />
+      <module name="opendj-core" options="-XDignore.symbol.file" />
+      <module name="opendj-doc-maven-plugin" options="-XDignore.symbol.file" />
+      <module name="opendj-dsml-servlet" options="-XDignore.symbol.file" />
+      <module name="opendj-embedded-server-examples" options="-XDignore.symbol.file" />
+      <module name="opendj-grizzly" options="-XDignore.symbol.file" />
+      <module name="opendj-ldap-sdk-examples" options="-XDignore.symbol.file" />
+      <module name="opendj-ldap-toolkit" options="-XDignore.symbol.file" />
+      <module name="opendj-legacy" options="-XDignore.symbol.file" />
+      <module name="opendj-maven-plugin" options="-XDignore.symbol.file" />
+      <module name="opendj-openidm-account-change-notification-handler" options="-XDignore.symbol.file" />
+      <module name="opendj-rest2ldap" options="-XDignore.symbol.file" />
+      <module name="opendj-rest2ldap-servlet" options="-XDignore.symbol.file" />
+      <module name="opendj-server" options="-XDignore.symbol.file" />
+      <module name="opendj-server-example-plugin" options="-XDignore.symbol.file" />
+      <module name="opendj-server-legacy" options="-XDignore.symbol.file" />
+    </option>
+  </component>
+</project>

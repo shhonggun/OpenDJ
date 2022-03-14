@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="opendj-rest2ldap-servlet:war">
+    <output-path>$PROJECT_DIR$/opendj-rest2ldap-servlet/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>opendj-rest2ldap-servlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="org.openidentityplatform.opendj.opendj-rest2ldap-servlet.war">
+      <element id="artifact" artifact-name="opendj-rest2ldap-servlet:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="opendj-dsml-servlet:war">
+    <output-path>$PROJECT_DIR$/opendj-dsml-servlet/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>opendj-dsml-servlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="org.openidentityplatform.opendj.opendj-dsml-servlet.war">
+      <element id="artifact" artifact-name="opendj-dsml-servlet:war exploded" />
+    </root>
+  </artifact>
+</component>
