@@ -1,0 +1,3 @@
+org.forgerock.opendj.rest2ldap
+org.forgerock.opendj.rest2ldap.authz
+org.forgerock.opendj.rest2ldap.schema

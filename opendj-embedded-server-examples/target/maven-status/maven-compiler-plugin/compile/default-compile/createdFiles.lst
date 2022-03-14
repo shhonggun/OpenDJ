@@ -1,0 +1,4 @@
+org\forgerock\opendj\examples\StartStopServer.class
+org\forgerock\opendj\examples\ConfigureServer.class
+org\forgerock\opendj\examples\SetupServer.class
+org\forgerock\opendj\examples\StartStopServer$1.class

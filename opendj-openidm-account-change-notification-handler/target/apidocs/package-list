@@ -1,0 +1,4 @@
+org.forgerock.openidm.accountchange
+org.forgerock.openidm.accountchange.client
+org.forgerock.openidm.accountchange.meta
+org.forgerock.openidm.accountchange.server

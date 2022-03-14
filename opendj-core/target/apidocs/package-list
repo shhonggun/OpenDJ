@@ -1,0 +1,15 @@
+com.forgerock.opendj.ldap
+com.forgerock.opendj.ldap.controls
+com.forgerock.opendj.ldap.extensions
+com.forgerock.opendj.security
+com.forgerock.opendj.util
+com.forgerock.reactive
+org.forgerock.opendj.io
+org.forgerock.opendj.ldap
+org.forgerock.opendj.ldap.controls
+org.forgerock.opendj.ldap.requests
+org.forgerock.opendj.ldap.responses
+org.forgerock.opendj.ldap.schema
+org.forgerock.opendj.ldap.spi
+org.forgerock.opendj.ldif
+org.forgerock.opendj.security

@@ -1,0 +1,9 @@
+com\example\opendj\ExamplePluginMessages.class
+com\example\opendj\meta\ExamplePluginCfgDefn$ExamplePluginCfgServerImpl.class
+com\example\opendj\meta\ExamplePluginCfgDefn$1.class
+com\example\opendj\meta\ExamplePluginCfgDefn$ExamplePluginCfgClientImpl.class
+com\example\opendj\server\ExamplePluginCfg.class
+com\example\opendj\ExamplePlugin.class
+com\example\opendj\ExamplePlugin$1.class
+com\example\opendj\meta\ExamplePluginCfgDefn.class
+com\example\opendj\client\ExamplePluginCfgClient.class

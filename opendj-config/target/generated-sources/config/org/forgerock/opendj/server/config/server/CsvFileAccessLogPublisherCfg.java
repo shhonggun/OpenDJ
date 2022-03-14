@@ -1,0 +1,276 @@
+/*
+ * The contents of this file are subject to the terms of the Common Development and
+ * Distribution License (the License). You may not use this file except in compliance with the
+ * License.
+ *
+ * You can obtain a copy of the License at legal/CDDLv1.0.txt. See the License for the
+ * specific language governing permission and limitations under the License.
+ *
+ * When distributing Covered Software, include this CDDL Header Notice in each file and include
+ * the License file at legal/CDDLv1.0.txt. If applicable, add the following below the CDDL
+ * Header, with the fields enclosed by brackets [] replaced by your own identifying
+ * information: "Portions Copyright [year] [name of copyright owner]".
+ *
+ * Copyright 2008 Sun Microsystems, Inc.
+ */
+package org.forgerock.opendj.server.config.server;
+
+
+
+import java.util.SortedSet;
+import org.forgerock.opendj.config.server.ConfigurationChangeListener;
+import org.forgerock.opendj.ldap.DN;
+
+
+
+/**
+ * A server-side interface for querying Csv File Access Log Publisher
+ * settings.
+ * <p>
+ * Csv File Access Log Publishers publish access messages to CSV
+ * files.
+ */
+public interface CsvFileAccessLogPublisherCfg extends AccessLogPublisherCfg {
+
+  /**
+   * Gets the configuration class associated with this Csv File Access Log Publisher.
+   *
+   * @return Returns the configuration class associated with this Csv File Access Log Publisher.
+   */
+  Class<? extends CsvFileAccessLogPublisherCfg> configurationClass();
+
+
+
+  /**
+   * Register to be notified when this Csv File Access Log Publisher is changed.
+   *
+   * @param listener
+   *          The Csv File Access Log Publisher configuration change listener.
+   */
+  void addCsvFileAccessChangeListener(ConfigurationChangeListener<CsvFileAccessLogPublisherCfg> listener);
+
+
+
+  /**
+   * Deregister an existing Csv File Access Log Publisher configuration change listener.
+   *
+   * @param listener
+   *          The Csv File Access Log Publisher configuration change listener.
+   */
+  void removeCsvFileAccessChangeListener(ConfigurationChangeListener<CsvFileAccessLogPublisherCfg> listener);
+
+
+
+  /**
+   * Gets the "asynchronous" property.
+   * <p>
+   * Indicates whether the Csv File Access Log Publisher will publish
+   * records asynchronously.
+   *
+   * @return Returns the value of the "asynchronous" property.
+   */
+  boolean isAsynchronous();
+
+
+
+  /**
+   * Gets the "auto-flush" property.
+   * <p>
+   * Specifies whether to flush the writer after every log record.
+   * <p>
+   * If the asynchronous writes option is used, the writer is flushed
+   * after all the log records in the queue are written.
+   *
+   * @return Returns the value of the "auto-flush" property.
+   */
+  boolean isAutoFlush();
+
+
+
+  /**
+   * Gets the "csv-delimiter-char" property.
+   * <p>
+   * The delimiter character to use when writing in CSV format.
+   *
+   * @return Returns the value of the "csv-delimiter-char" property.
+   */
+  String getCsvDelimiterChar();
+
+
+
+  /**
+   * Gets the "csv-eol-symbols" property.
+   * <p>
+   * The string that marks the end of a line.
+   *
+   * @return Returns the value of the "csv-eol-symbols" property.
+   */
+  String getCsvEolSymbols();
+
+
+
+  /**
+   * Gets the "csv-quote-char" property.
+   * <p>
+   * The character to append and prepend to a CSV field when writing
+   * in CSV format.
+   *
+   * @return Returns the value of the "csv-quote-char" property.
+   */
+  String getCsvQuoteChar();
+
+
+
+  /**
+   * Gets the "java-class" property.
+   * <p>
+   * The fully-qualified name of the Java class that provides the Csv
+   * File Access Log Publisher implementation.
+   *
+   * @return Returns the value of the "java-class" property.
+   */
+  String getJavaClass();
+
+
+
+  /**
+   * Gets the "key-store-file" property.
+   * <p>
+   * Specifies the path to the file that contains the private key
+   * information. This may be an absolute path, or a path that is
+   * relative to the OpenDJ instance root.
+   * <p>
+   * Changes to this property will take effect the next time that the
+   * key store is accessed.
+   *
+   * @return Returns the value of the "key-store-file" property.
+   */
+  String getKeyStoreFile();
+
+
+
+  /**
+   * Gets the "key-store-pin-file" property.
+   * <p>
+   * Specifies the path to the text file whose only contents should be
+   * a single line containing the clear-text PIN needed to access the
+   * Csv File Access Log Publisher .
+   *
+   * @return Returns the value of the "key-store-pin-file" property.
+   */
+  String getKeyStorePinFile();
+
+
+
+  /**
+   * Gets the "log-control-oids" property.
+   * <p>
+   * Specifies whether control OIDs will be included in operation log
+   * records.
+   *
+   * @return Returns the value of the "log-control-oids" property.
+   */
+  boolean isLogControlOids();
+
+
+
+  /**
+   * Gets the "log-directory" property.
+   * <p>
+   * The directory to use for the log files generated by the Csv File
+   * Access Log Publisher. The path to the directory is relative to the
+   * server root.
+   *
+   * @return Returns the value of the "log-directory" property.
+   */
+  String getLogDirectory();
+
+
+
+  /**
+   * Gets the "retention-policy" property.
+   * <p>
+   * The retention policy to use for the Csv File Access Log Publisher
+   * .
+   * <p>
+   * When multiple policies are used, log files are cleaned when any
+   * of the policy's conditions are met.
+   *
+   * @return Returns an unmodifiable set containing the values of the "retention-policy" property.
+   */
+  SortedSet<String> getRetentionPolicy();
+
+
+
+  /**
+   * Gets the "retention-policy" property as a set of DNs.
+   * <p>
+   * The retention policy to use for the Csv File Access Log Publisher
+   * .
+   * <p>
+   * When multiple policies are used, log files are cleaned when any
+   * of the policy's conditions are met.
+   *
+   * @return Returns the DN values of the "retention-policy" property.
+   */
+  SortedSet<DN> getRetentionPolicyDNs();
+
+
+
+  /**
+   * Gets the "rotation-policy" property.
+   * <p>
+   * The rotation policy to use for the Csv File Access Log Publisher
+   * .
+   * <p>
+   * When multiple policies are used, rotation will occur if any
+   * policy's conditions are met.
+   *
+   * @return Returns an unmodifiable set containing the values of the "rotation-policy" property.
+   */
+  SortedSet<String> getRotationPolicy();
+
+
+
+  /**
+   * Gets the "rotation-policy" property as a set of DNs.
+   * <p>
+   * The rotation policy to use for the Csv File Access Log Publisher
+   * .
+   * <p>
+   * When multiple policies are used, rotation will occur if any
+   * policy's conditions are met.
+   *
+   * @return Returns the DN values of the "rotation-policy" property.
+   */
+  SortedSet<DN> getRotationPolicyDNs();
+
+
+
+  /**
+   * Gets the "signature-time-interval" property.
+   * <p>
+   * Specifies the interval at which to sign the log file when the
+   * tamper-evident option is enabled.
+   *
+   * @return Returns the value of the "signature-time-interval" property.
+   */
+  long getSignatureTimeInterval();
+
+
+
+  /**
+   * Gets the "tamper-evident" property.
+   * <p>
+   * Specifies whether the log should be signed in order to detect
+   * tampering.
+   * <p>
+   * Every log record will be signed, making it possible to verify
+   * that the log has not been tampered with. This feature has a
+   * significative impact on performance of the server.
+   *
+   * @return Returns the value of the "tamper-evident" property.
+   */
+  boolean isTamperEvident();
+
+}

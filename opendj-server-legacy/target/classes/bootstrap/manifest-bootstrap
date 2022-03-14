@@ -1,0 +1,60 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.8.1
+Built-By: 홍군
+Build-Jdk: 1.8.0_281
+Class-Path: chakanldap.jar chakanldap_ca_ES.jar chakanldap_es.jar chak
+ anldap_de.jar chakanldap_fr.jar chakanldap_ja.jar chakanldap_ko.jar c
+ hakanldap_pl.jar chakanldap_zh_CN.jar chakanldap_zh_TW.jar com.faster
+ xml.jackson.core.jackson-annotations.jar com.fasterxml.jackson.core.j
+ ackson-core.jar com.fasterxml.jackson.core.jackson-databind.jar com.f
+ asterxml.jackson.module.jackson-module-jsonSchema.jar com.github.step
+ henc.jcip.jcip-annotations.jar com.google.code.findbugs.jsr305.jar co
+ m.google.errorprone.error_prone_annotations.jar com.google.guava.fail
+ ureaccess.jar com.google.guava.guava.jar com.google.guava.listenablef
+ uture.jar com.google.j2objc.j2objc-annotations.jar com.sleepycat.je.j
+ ar com.sun.activation.javax.activation.jar com.sun.mail.javax.mail.ja
+ r com.sun.xml.bind.jaxb-core.jar com.sun.xml.bind.jaxb-impl.jar commo
+ ns-codec.commons-codec.jar commons-logging.commons-logging.jar de.ody
+ sseus.juel.juel-api.jar de.odysseus.juel.juel-impl.jar io.dropwizard.
+ metrics.metrics-core.jar io.reactivex.rxjava2.rxjava.jar io.swagger.s
+ wagger-models.jar javax.activation.activation.jar javax.activation.ja
+ vax.activation-api.jar javax.annotation.javax.annotation-api.jar java
+ x.jms.javax.jms-api.jar javax.validation.validation-api.jar javax.xml
+ .bind.jaxb-api.jar joda-time.joda-time.jar net.sf.supercsv.super-csv.
+ jar org.apache.httpcomponents.httpasyncclient-osgi.jar org.apache.htt
+ pcomponents.httpasyncclient.jar org.apache.httpcomponents.httpclient-
+ osgi.jar org.apache.httpcomponents.httpclient.jar org.apache.httpcomp
+ onents.httpcore-nio.jar org.apache.httpcomponents.httpcore-osgi.jar o
+ rg.apache.httpcomponents.httpcore.jar org.apache.servicemix.bundles.o
+ rg.apache.servicemix.bundles.javax-inject.jar org.checkerframework.ch
+ ecker-qual.jar org.glassfish.grizzly.grizzly-framework.jar org.glassf
+ ish.grizzly.grizzly-http-server.jar org.glassfish.grizzly.grizzly-htt
+ p.jar org.hdrhistogram.HdrHistogram.jar org.mpierce.metrics.reservoir
+ .hdrhistogram-metrics-reservoir.jar org.openidentityplatform.commons.
+ api-descriptor.jar org.openidentityplatform.commons.audit.core.jar or
+ g.openidentityplatform.commons.audit.handler-csv.jar org.openidentity
+ platform.commons.audit.handler-elasticsearch.jar org.openidentityplat
+ form.commons.audit.handler-jdbc.jar org.openidentityplatform.commons.
+ audit.handler-jms.jar org.openidentityplatform.commons.audit.handler-
+ json.jar org.openidentityplatform.commons.audit.handler-splunk.jar or
+ g.openidentityplatform.commons.audit.handler-syslog.jar org.openident
+ ityplatform.commons.audit.json.jar org.openidentityplatform.commons.h
+ ttp-framework.client-apache-async.jar org.openidentityplatform.common
+ s.http-framework.client-apache-common.jar org.openidentityplatform.co
+ mmons.http-framework.core.jar org.openidentityplatform.commons.http-f
+ ramework.grizzly.jar org.openidentityplatform.commons.http-framework.
+ oauth2.jar org.openidentityplatform.commons.i18n-framework.core.jar o
+ rg.openidentityplatform.commons.i18n-framework.slf4j.jar org.openiden
+ tityplatform.commons.json-resource-http.jar org.openidentityplatform.
+ commons.json-resource.jar org.openidentityplatform.commons.json-web-t
+ oken.jar org.openidentityplatform.commons.persistit.core.jar org.open
+ identityplatform.commons.security.jar org.openidentityplatform.common
+ s.util.jar org.openidentityplatform.opendj.opendj-cli.jar org.openide
+ ntityplatform.opendj.opendj-config.jar org.openidentityplatform.opend
+ j.opendj-core.jar org.openidentityplatform.opendj.opendj-grizzly.jar 
+ org.openidentityplatform.opendj.opendj-ldap-toolkit.jar org.openident
+ ityplatform.opendj.opendj-rest2ldap.jar org.openidentityplatform.open
+ dj.opendj-server.jar org.reactivestreams.reactive-streams.jar org.slf
+ 4j.jcl-over-slf4j.jar org.slf4j.jul-to-slf4j.jar org.slf4j.slf4j-api.
+ jar opendj-slf4j-adapter.jar opendj-je-backend.jar

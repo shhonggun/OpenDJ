@@ -1,0 +1,6 @@
+com\forgerock\opendj\cli\ConsoleApplicationTestCase.class
+com\forgerock\opendj\cli\TestSubCommandTestCase.class
+com\forgerock\opendj\cli\ConsoleApplicationTestCase$MockConsoleApplication.class
+com\forgerock\opendj\cli\UtilsTestCase.class
+com\forgerock\opendj\cli\CliTestCase.class
+com\forgerock\opendj\cli\TestSubCommandArgumentParserTestCase.class

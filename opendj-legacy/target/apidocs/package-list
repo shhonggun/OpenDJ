@@ -1,0 +1,5 @@
+org.opends.legacy
+org.opends.server.api
+org.opends.server.backends.jeb
+org.opends.server.replication.plugin
+org.opends.server.schema

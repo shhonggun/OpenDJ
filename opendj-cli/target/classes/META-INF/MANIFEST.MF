@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-Description: This module includes CLI API for implementing CLI ap
+ plications.
+Bundle-License: http://www.opensource.org/licenses/CDDL-1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ChaKanLDAP CLI API
+Bundle-SymbolicName: org.openidentityplatform.opendj.cli
+Bundle-Version: 4.4.11
+Export-Package: com.forgerock.opendj.cli;uses:="org.forgerock.i18n,org.f
+ orgerock.i18n.slf4j,javax.net.ssl,org.forgerock.util,com.forgerock.open
+ dj.util,org.forgerock.opendj.ldap,org.forgerock.util.time,org.forgerock
+ .opendj.ldap.requests,org.forgerock.opendj.ldap.controls,freemarker.tem
+ plate";version="4.4.11"
+Import-Package: com.forgerock.opendj.util;version="[4.4,5)",freemarker.t
+ emplate;version="[2.3,3)",javax.net.ssl,org.forgerock.i18n;version="[2.
+ 0,3)",org.forgerock.i18n.slf4j;version="[2.0,3)",org.forgerock.opendj.l
+ dap;version="[4.4,4.5)",org.forgerock.opendj.ldap.controls;version="[4.
+ 4,4.5)",org.forgerock.opendj.ldap.requests;version="[4.4,4.5)",org.forg
+ erock.util;version="[2.0,3)",org.forgerock.util.time;version="[2.0,3)"

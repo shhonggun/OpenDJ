@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="E:\source\OpenDJ_github\OpenDJ\opendj-server-legacy/src/snmp/generated/org/opends/server/snmp"/>
+  <mkdir dir="E:\source\OpenDJ_github\OpenDJ\opendj-server-legacy/src/snmp/generated/org/opends/server/snmp"/>
+</target>
+</project>

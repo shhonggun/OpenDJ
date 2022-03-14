@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Bundle-Description: This module includes a Grizzly based network transpo
+ rt provider for ChaKanLDAP.
+Bundle-License: http://www.opensource.org/licenses/CDDL-1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ChaKanLDAP Grizzly Transport Provider
+Bundle-SymbolicName: org.openidentityplatform.opendj.grizzly
+Bundle-Version: 4.4.11
+Export-Package: com.forgerock.opendj.grizzly;uses:="org.forgerock.i18n,c
+ om.forgerock.reactive,org.forgerock.opendj.ldap.spi,org.forgerock.opend
+ j.grizzly,org.forgerock.opendj.ldap.responses,org.forgerock.util,org.fo
+ rgerock.opendj.ldap";version="4.4.11",org.forgerock.opendj.grizzly;uses
+ :="org.forgerock.i18n,org.forgerock.i18n.slf4j,org.glassfish.grizzly,co
+ m.forgerock.opendj.ldap,org.forgerock.opendj.ldap,org.forgerock.opendj.
+ io,org.glassfish.grizzly.memory,com.forgerock.opendj.util,org.glassfish
+ .grizzly.attributes,org.forgerock.opendj.ldap.responses,org.glassfish.g
+ rizzly.filterchain,org.glassfish.grizzly.strategies,org.glassfish.grizz
+ ly.nio.transport,org.glassfish.grizzly.threadpool,org.forgerock.util.pr
+ omise,javax.net.ssl,org.forgerock.util.time,com.forgerock.opendj.grizzl
+ y,org.forgerock.opendj.ldap.spi,org.forgerock.util,org.forgerock.opendj
+ .ldap.requests,org.glassfish.grizzly.ssl,com.forgerock.reactive,org.rea
+ ctivestreams,io.reactivex.internal.util,javax.security.sasl";version="4
+ .4.11"
+Import-Package: com.forgerock.opendj.ldap;version="[4.4,5)",com.forgeroc
+ k.opendj.util;version="[4.4,5)",com.forgerock.reactive;version="[4.4,5)
+ ",io.reactivex.internal.util;version="[2.0,3)",javax.net.ssl,javax.secu
+ rity.sasl,org.forgerock.i18n;version="[2.0,3)",org.forgerock.i18n.slf4j
+ ;version="[2.0,3)",org.forgerock.opendj.io;version="[4.4,4.5)",org.forg
+ erock.opendj.ldap;version="[4.4,4.5)",org.forgerock.opendj.ldap.request
+ s;version="[4.4,4.5)",org.forgerock.opendj.ldap.responses;version="[4.4
+ ,4.5)",org.forgerock.opendj.ldap.spi;version="[4.4,4.5)",org.forgerock.
+ util;version="[2.0,3)",org.forgerock.util.promise;version="[2.0,3)",org
+ .forgerock.util.time;version="[2.0,3)",org.glassfish.grizzly;version="[
+ 2.4,3)",org.glassfish.grizzly.attributes;version="[2.4,3)",org.glassfis
+ h.grizzly.filterchain;version="[2.4,3)",org.glassfish.grizzly.memory;ve
+ rsion="[2.4,3)",org.glassfish.grizzly.nio.transport;version="[2.4,3)",o
+ rg.glassfish.grizzly.ssl;version="[2.4,3)",org.glassfish.grizzly.strate
+ gies;version="[2.4,3)",org.glassfish.grizzly.threadpool;version="[2.4,3
+ )",org.reactivestreams;version="[1.0,2)"

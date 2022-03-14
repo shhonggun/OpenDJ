@@ -1,0 +1,13 @@
+com.forgerock.opendj.dsconfig
+com.forgerock.opendj.ldap.config
+org.forgerock.opendj.config
+org.forgerock.opendj.config.client
+org.forgerock.opendj.config.client.ldap
+org.forgerock.opendj.config.client.spi
+org.forgerock.opendj.config.conditions
+org.forgerock.opendj.config.dsconfig
+org.forgerock.opendj.config.server
+org.forgerock.opendj.config.server.spi
+org.forgerock.opendj.server.config.client
+org.forgerock.opendj.server.config.meta
+org.forgerock.opendj.server.config.server
