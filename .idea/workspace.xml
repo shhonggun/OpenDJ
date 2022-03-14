@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf887d05-3c2f-4fb9-b1a1-c486a13cc779" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/opendj-cli/src/main/main3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-config/src/test/test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-core/src/main/main1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-grizzly/src/main/main2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-grizzly/src/test/test5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-ldap-toolkit/src/main/main4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-rest2ldap/src/main/main6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-rest2ldap/src/test/test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-server-legacy/src/main/main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-server-legacy/src/test/test6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opendj-server/src/main/main5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/opendmk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/opendmk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-config/src/main/main7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-config/src/main/main7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-core/src/test/test3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-core/src/test/test3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-doc-maven-plugin/opendj-doc-maven-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-doc-maven-plugin/opendj-doc-maven-plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-dsml-servlet/opendj-dsml-servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-dsml-servlet/opendj-dsml-servlet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-embedded-server-examples/opendj-embedded-server-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-embedded-server-examples/opendj-embedded-server-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-ldap-sdk-examples/opendj-ldap-sdk-examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-ldap-sdk-examples/opendj-ldap-sdk-examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-ldap-toolkit/src/test/test2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-ldap-toolkit/src/test/test2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-openidm-account-change-notification-handler/opendj-openidm-account-change-notification-handler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-openidm-account-change-notification-handler/opendj-openidm-account-change-notification-handler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-server-example-plugin/opendj-server-example-plugin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-server-example-plugin/opendj-server-example-plugin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opendj-server-legacy/src/snmp/snmp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/opendj-server-legacy/src/snmp/snmp.iml" afterDir="false" />
-    </list>
+    <list default="true" id="bf887d05-3c2f-4fb9-b1a1-c486a13cc779" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,8 +97,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647217450044</updated>
-      <workItem from="1647217452623" duration="873000" />
+      <workItem from="1647217452623" duration="1019000" />
     </task>
+    <task id="LOCAL-00001" summary="IntelliJ commit #1">
+      <created>1647218590667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647218590667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IntelliJ commit #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="IntelliJ commit #1" />
   </component>
 </project>
