@@ -99,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647217450044</updated>
-      <workItem from="1647217452623" duration="1253000" />
+      <workItem from="1647217452623" duration="1371000" />
     </task>
     <task id="LOCAL-00001" summary="IntelliJ commit #1">
       <created>1647218590667</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647218820574</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="parent pom.xml modify #3">
+      <created>1647218931363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647218931363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="IntelliJ commit #1" />
     <MESSAGE value="parent pom.xml modify" />
     <MESSAGE value="parent pom.xml modify #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="parent pom.xml modify #2" />
+    <MESSAGE value="parent pom.xml modify #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="parent pom.xml modify #3" />
   </component>
 </project>
