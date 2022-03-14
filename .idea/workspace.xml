@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bf887d05-3c2f-4fb9-b1a1-c486a13cc779" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647217450044</updated>
-      <workItem from="1647217452623" duration="4692000" />
+      <workItem from="1647217452623" duration="5419000" />
     </task>
     <task id="LOCAL-00001" summary="IntelliJ commit #1">
       <created>1647218590667</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647221043182</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="branch v001 add">
+      <created>1647223518384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647223518384</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
