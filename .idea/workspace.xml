@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647217450044</updated>
-      <workItem from="1647217452623" duration="2005000" />
+      <workItem from="1647217452623" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="IntelliJ commit #1">
       <created>1647218590667</created>
@@ -134,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647219049931</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Chakan_logo.png add">
+      <created>1647219822719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647219822719</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Chakan_logo.png add">
+      <created>1647219834740</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647219834740</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +171,7 @@
     <MESSAGE value="parent pom.xml modify #2" />
     <MESSAGE value="parent pom.xml modify #3" />
     <MESSAGE value="parent pom.xml modify #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="parent pom.xml modify #4" />
+    <MESSAGE value="Chakan_logo.png add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chakan_logo.png add" />
   </component>
 </project>
