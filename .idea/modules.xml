@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/opendj-grizzly/src/main/main.iml" filepath="$PROJECT_DIR$/opendj-grizzly/src/main/main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/src/main/main1.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/src/main/main1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-rest2ldap/src/main/main2.iml" filepath="$PROJECT_DIR$/opendj-rest2ldap/src/main/main2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-server/src/main/main3.iml" filepath="$PROJECT_DIR$/opendj-server/src/main/main3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-cli/src/main/main4.iml" filepath="$PROJECT_DIR$/opendj-cli/src/main/main4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-ldap-toolkit/src/main/main5.iml" filepath="$PROJECT_DIR$/opendj-ldap-toolkit/src/main/main5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-core/src/main/main6.iml" filepath="$PROJECT_DIR$/opendj-core/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/src/main/main.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-core/src/main/main1.iml" filepath="$PROJECT_DIR$/opendj-core/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-grizzly/src/main/main2.iml" filepath="$PROJECT_DIR$/opendj-grizzly/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-cli/src/main/main3.iml" filepath="$PROJECT_DIR$/opendj-cli/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-ldap-toolkit/src/main/main4.iml" filepath="$PROJECT_DIR$/opendj-ldap-toolkit/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-server/src/main/main5.iml" filepath="$PROJECT_DIR$/opendj-server/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-rest2ldap/src/main/main6.iml" filepath="$PROJECT_DIR$/opendj-rest2ldap/src/main/main6.iml" />
       <module fileurl="file://$PROJECT_DIR$/opendj-config/src/main/main7.iml" filepath="$PROJECT_DIR$/opendj-config/src/main/main7.iml" />
       <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/src/messages/messages.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/src/messages/messages.iml" />
       <module fileurl="file://$PROJECT_DIR$/opendj-cli/opendj-cli.iml" filepath="$PROJECT_DIR$/opendj-cli/opendj-cli.iml" />
@@ -32,14 +32,14 @@
       <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/opendj-server-legacy.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/opendj-server-legacy.iml" />
       <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/src/main/resources/resources.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/src/main/resources/resources.iml" />
       <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/src/snmp/snmp.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/src/snmp/snmp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-core/src/test/test.iml" filepath="$PROJECT_DIR$/opendj-core/src/test/test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-config/src/test/test1.iml" filepath="$PROJECT_DIR$/opendj-config/src/test/test1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-rest2ldap/src/test/test2.iml" filepath="$PROJECT_DIR$/opendj-rest2ldap/src/test/test2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/src/test/test3.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-config/src/test/test.iml" filepath="$PROJECT_DIR$/opendj-config/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-rest2ldap/src/test/test1.iml" filepath="$PROJECT_DIR$/opendj-rest2ldap/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-ldap-toolkit/src/test/test2.iml" filepath="$PROJECT_DIR$/opendj-ldap-toolkit/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-core/src/test/test3.iml" filepath="$PROJECT_DIR$/opendj-core/src/test/test3.iml" />
       <module fileurl="file://$PROJECT_DIR$/opendj-cli/src/test/test4.iml" filepath="$PROJECT_DIR$/opendj-cli/src/test/test4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-server/src/test/test5.iml" filepath="$PROJECT_DIR$/opendj-server/src/test/test5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-ldap-toolkit/src/test/test6.iml" filepath="$PROJECT_DIR$/opendj-ldap-toolkit/src/test/test6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/opendj-grizzly/src/test/test7.iml" filepath="$PROJECT_DIR$/opendj-grizzly/src/test/test7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-grizzly/src/test/test5.iml" filepath="$PROJECT_DIR$/opendj-grizzly/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-server-legacy/src/test/test6.iml" filepath="$PROJECT_DIR$/opendj-server-legacy/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opendj-server/src/test/test7.iml" filepath="$PROJECT_DIR$/opendj-server/src/test/test7.iml" />
     </modules>
   </component>
 </project>

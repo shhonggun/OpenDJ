@@ -7,20 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="lib2" level="project" />
-    <orderEntry type="library" name="target7" level="project" />
-    <orderEntry type="library" name="lib3" level="project" />
-    <orderEntry type="library" name="target4" level="project" />
-    <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="target13" level="project" />
-    <orderEntry type="library" name="target15" level="project" />
-    <orderEntry type="library" name="target3" level="project" />
-    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="module" module-name="main3" />
     <orderEntry type="module" module-name="main1" />
-    <orderEntry type="module" module-name="target6" />
-    <orderEntry type="module" module-name="target1" />
-    <orderEntry type="module" module-name="main" />
-    <orderEntry type="module" module-name="test6" />
     <orderEntry type="module" module-name="test3" />
+    <orderEntry type="module" module-name="test4" />
   </component>
 </module>

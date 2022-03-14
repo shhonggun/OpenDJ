@@ -10,12 +10,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="main1" />
-    <orderEntry type="module" module-name="test1" />
     <orderEntry type="module" module-name="main7" />
+    <orderEntry type="module" module-name="test6" />
+    <orderEntry type="module" module-name="main" />
+    <orderEntry type="module" module-name="main1" />
     <orderEntry type="module" module-name="test" />
     <orderEntry type="module" module-name="test3" />
-    <orderEntry type="module" module-name="main6" />
     <orderEntry type="module" module-name="opendj-core" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.openidentityplatform.commons.i18n-framework:core:2.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.openidentityplatform.commons:util:2.0.12" level="project" />

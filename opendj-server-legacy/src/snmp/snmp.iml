@@ -9,13 +9,13 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="opendmk" level="project" />
-    <orderEntry type="module" module-name="main1" />
-    <orderEntry type="module" module-name="test1" />
     <orderEntry type="module" module-name="main7" />
-    <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="test6" />
     <orderEntry type="module" module-name="opendj-legacy" />
-    <orderEntry type="module" module-name="test3" />
+    <orderEntry type="module" module-name="main" />
     <orderEntry type="module" module-name="resources" />
-    <orderEntry type="module" module-name="main6" />
+    <orderEntry type="module" module-name="main1" />
+    <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="test3" />
   </component>
 </module>

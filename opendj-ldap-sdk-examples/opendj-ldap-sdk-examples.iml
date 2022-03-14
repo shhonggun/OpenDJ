@@ -9,8 +9,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="test" />
-    <orderEntry type="module" module-name="main6" />
+    <orderEntry type="module" module-name="main1" />
+    <orderEntry type="module" module-name="test3" />
     <orderEntry type="module" module-name="opendj-core" />
     <orderEntry type="library" name="Maven: org.openidentityplatform.commons.i18n-framework:core:2.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />

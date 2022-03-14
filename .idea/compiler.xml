@@ -17,8 +17,8 @@
         <module name="opendj-grizzly" />
         <module name="opendj-ldap-toolkit" />
         <module name="opendj-ldap-sdk-examples" />
-        <module name="opendj-server-legacy" />
         <module name="opendj-dsml-servlet" />
+        <module name="opendj-server-legacy" />
         <module name="opendj-core" />
         <module name="opendj-openidm-account-change-notification-handler" />
         <module name="opendj-cli" />

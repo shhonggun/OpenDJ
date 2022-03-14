@@ -19,9 +19,7 @@
     <facet type="jpa" name="JPA">
       <configuration>
         <setting name="validation-enabled" value="true" />
-        <datasource-mapping>
-          <factory-entry name="opendj-dsml-servlet" />
-        </datasource-mapping>
+        <datasource-mapping />
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -35,12 +33,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="test6" />
+    <orderEntry type="module" module-name="main" />
     <orderEntry type="module" module-name="messages" />
-    <orderEntry type="module" module-name="main1" />
-    <orderEntry type="module" module-name="test" />
-    <orderEntry type="module" module-name="test3" />
     <orderEntry type="module" module-name="resources" />
-    <orderEntry type="module" module-name="main6" />
+    <orderEntry type="module" module-name="main1" />
+    <orderEntry type="module" module-name="test3" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.openidentityplatform.commons:util:2.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
